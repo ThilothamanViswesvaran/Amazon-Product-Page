@@ -1,0 +1,41 @@
+.product-1 {
+    height: 484px;
+    width: 484px;
+    padding: 0%;
+    margin: 0%;
+}
+
+.container-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    gap: 20px;
+}
+
+.container-1, .container-2, .container-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-2, .container-3 {
+    text-align: center;
+}
+
+ul.thumb{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+

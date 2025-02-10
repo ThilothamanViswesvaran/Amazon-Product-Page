@@ -1,0 +1,231 @@
+.box{
+    width: 500px;
+    height: 600px;
+    font-size: 23px;
+    text-align: start;
+    
+}
+
+.brand{
+    font-size: 14px;
+    color: #4978ab;
+}
+
+.stars{
+    width: 80px;
+}
+
+.stars-1{
+    font-size: 16px;
+}
+
+.review{
+    font-size: 14px;
+    color: #4978ab;
+    padding-left: 20px;
+}
+
+.price{
+    font-size: 27px;
+}
+
+.emi{
+    font-size: 20px;
+}
+
+.emi-1{
+    font-size: 14px;
+}
+
+.emi-2{
+    font-size: 14px;
+    color: #4978ab;
+}
+
+.offer{
+    color: #cc0c39;
+    font-size: 18px;
+}
+
+.amount{
+    color: black;
+    font-size: 21px;
+}
+
+.mrp{
+    font-size: 12px;
+    color: gray;
+}
+
+.prime-tick{
+    height: 15px;
+    width: 50px;
+}
+
+.amazon-business{
+    color: black;
+    font-size: 14px;
+    width: 100%;
+    line-height: 10px;
+}
+
+.discount-2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.discount{
+    color: black;
+    font-size: 14px;
+}
+
+.discount-1{
+    width: 24px;
+    margin-right: 15px;
+}
+
+.offers-2{
+    margin-top: 20px;
+    gap: 5px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+    scroll-behavior: smooth;
+}
+
+.nocost-emi, .cashback, .bank-offer, .partner-offer{
+    width: 154px;
+    height: 118px;
+    color: black;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.free-shipping-1, .replacement-1, .warranty-1, .assembly-1, .amazon-delivery-1, .secure-1{
+    width: 25px;
+    height: 25px;
+}
+
+.free-shipping-2, .replacement-2, .warranty-2, .assembly-2, .amazon-delivery-2, .secure-2{
+    font-size: 12px;
+    width: 50%;
+    text-align: center;
+    color: #4978ab;
+}
+
+.free-shipping, .replacement, .warranty, .assembly, .amazon-delivery, .secure{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.amazon-1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.details{
+    width: 480px;
+    height: 70px;
+    border: 1px solid #e77600;
+    border-radius: 5px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+    padding: 10px;
+}
+
+.checkbox-1{
+    font-size: 15px;
+    color: black;
+
+}
+
+.price-2{
+    color: #cc0c39;
+    font-size: 20px;
+}
+
+.price-1{
+    font-size: 14px;
+    color: gray;
+}
+
+.stars-2{
+    width: 80px;
+}
+
+.count{
+    font-size: 16px;
+    color: #4978ab;
+}
+
+.star-count{
+    padding-left: 25px;
+    margin-top: 10px;
+}
+
+.purchase{
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+.service{
+    font-size: 14px;
+    font-weight: 700;
+    color: black;
+}
+
+.installation{
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(105, 105, 105);
+}
+
+.specifications {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.spec-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.spec-label {
+    font-weight: bold;
+    color: black;
+}
+
+.spec-value {
+    color: #555;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    
+}
+
+.see-more {
+    color: #0073e6;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.see-more:hover {
+    text-decoration: underline;
+}
+
+
